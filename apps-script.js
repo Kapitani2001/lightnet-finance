@@ -118,6 +118,6 @@ function handleDelete(sheet, data) {
 function doGet(e) {
   return ContentService.createTextOutput(JSON.stringify({
     status: 'ok',
-    message: 'LightNet Finance API v2'
+    message: 'Financial App API v2'
   })).setMimeType(ContentService.MimeType.JSON);
 }
